@@ -1,0 +1,12 @@
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /user/:name               --> main.main.func1 (3 handlers)
+[GIN-debug] GET    /user/:name/*action       --> main.main.func2 (3 handlers)
+[GIN-debug] GET    /welcome                  --> main.main.func3 (3 handlers)
+[GIN-debug] POST   /form_post                --> main.main.func4 (3 handlers)
+[GIN-debug] POST   /post                     --> main.main.func5 (3 handlers)
+[GIN-debug] POST   /upload                   --> main.main.func6 (3 handlers)
+[GIN-debug] POST   /uploads                  --> main.main.func7 (3 handlers)
+[GIN-debug] Listening and serving HTTP on 192.168.1.104:8080
